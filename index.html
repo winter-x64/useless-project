@@ -1,0 +1,127 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Are You Useless?</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+
+      .btn {
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 1em;
+        cursor: pointer;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+      }
+
+      #noBtn {
+        position: relative;
+        transition: all 0.3s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Are you useless?</h1>
+      <button class="btn" id="yesBtn">Yes</button>
+      <button class="btn" id="noBtn">No</button>
+    </div>
+
+    <script>
+      const noBtn = document.getElementById("noBtn");
+      const yesBtn = document.getElementById("yesBtn");
+
+      noBtn.addEventListener("mouseover", () => {
+        const randomX = Math.floor(Math.random() * 300) - 100;
+        const randomY = Math.floor(Math.random() * 300) - 100;
+        noBtn.style.transform = `translate(${randomX}px, ${randomY}px)`;
+      });
+
+      yesBtn.addEventListener("click", () => {
+        alert("I know");
+      });
+    </script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Are You Useless?</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+
+      .btn {
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 1em;
+        cursor: pointer;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+      }
+
+      #noBtn {
+        position: relative;
+        transition: all 0.3s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Are you useless?</h1>
+      <button class="btn" id="yesBtn">Yes</button>
+      <button class="btn" id="noBtn">No</button>
+    </div>
+
+    <script>
+      const noBtn = document.getElementById("noBtn");
+      const yesBtn = document.getElementById("yesBtn");
+
+      noBtn.addEventListener("mouseover", () => {
+        const randomX = Math.floor(Math.random() * 300) - 100;
+        const randomY = Math.floor(Math.random() * 300) - 100;
+        noBtn.style.transform = `translate(${randomX}px, ${randomY}px)`;
+      });
+
+      yesBtn.addEventListener("click", () => {
+        window.location.href = "/response_dir/response.html";
+      });
+    </script>
+  </body>
+</html>
