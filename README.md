@@ -41,19 +41,13 @@ For Software:
 ![alt text](image/image.png)
 
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
 ### Project Demo
 # Video
-[Add your demo video link here]
+https://useless-project-opal.vercel.app/
 *Explain what the video demonstrates*
 
 ---
-Made with ❤️ at TinkerHub Useless Projects 
+Made with ❤️ at TinkerHub Useless Projects
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
 ![Static Badge](https://img.shields.io/badge/UselessProject--24-24?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
-
-
